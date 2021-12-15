@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Exceptionhy
+{
+    public static void main(String[] args) {
+        try(Scanner obj = new Scanner(System.in))
+        {
+            System.out.println("hello");
+        }
+    }
+}
